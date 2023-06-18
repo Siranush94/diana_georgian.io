@@ -350,10 +350,11 @@ body{
     top: 0px;
     right: 0px;
     font-size: 1.5rem;
+    padding-top: 3px;;
 }
 
 .iana{
-  padding-top: 20px;
+  padding-top: 19.5px;
 }
 
 .new{
