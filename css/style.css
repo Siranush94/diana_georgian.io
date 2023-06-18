@@ -338,7 +338,7 @@ body{
 }
 }
 
-@media (max-width: 420px){
+@media (max-width: 390px){
 
   .navbar-container input[type="checkbox"]:checked ~ .logo{
     display: none;
@@ -349,7 +349,7 @@ body{
     position: absolute;
     top: 0px;
     right: 0px;
-   font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .iana{
@@ -366,23 +366,23 @@ body{
 #container2{
   display:inline-block;
   max-width: 100%;
-  padding-top: 0px;
   height:300px;
 }
 .tox1{
   width:100%;
 }
 .Dian{
-  display:flex;
-  justify-content: center;
-
+  display:inline-block;
   max-width: 100%;
+
+  background-size:360px;
+  
   
  
 }
 .image{
-  width:350px;
-  
+  width:100%;
+
 
 }
 }
