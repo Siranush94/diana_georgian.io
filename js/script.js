@@ -1,4 +1,4 @@
-let typing= new Typed(".design",{
+var typingEffect= new Typed(".design",{
     strings:["Designer", "Motivator"],
     loop:true,
     typeSpeed:100,

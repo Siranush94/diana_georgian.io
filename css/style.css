@@ -31,7 +31,7 @@ body{
 }
 
 .navbar{
-    box-shadow: 0px 5px 10px 0px #aaa;
+    /*box-shadow: 0px 5px 10px 0px #aaa;*/
     position: fixed;
     width: 100%;
     background: #f8f6f846;
@@ -50,9 +50,20 @@ body{
     order: 2;
     display: flex;
 }
-.logo{
+ /*.logo{
     order: 1;
     font-size: 2.3rem;
+}*/
+
+ .logo{
+    display:flex;
+    justify-content: center;
+   
+    font-size: 2.3rem;
+}
+
+.iana{
+  padding-top:35px;
 }
 
 .menu-items li{
@@ -85,23 +96,39 @@ body{
   font-size:25px;
   padding-top: 100px;
   color: #686262;
+  
 }
  
 .Dian{
-  padding-left:150px;
+  padding-top: 30px;
+  padding-left:100px;
+  background-image: url("../icon/purple-circle.png");
+  background-repeat: no-repeat;
 }
 
 .design{
-  width:30%;
+ 
   color:#af88ee;
   font-size: 55px;
+  
+  
 }
 
 
- img{
+ .image{
    width:450px;
    height:480px;
  }
+
+
+
+.fi{
+  display:flex;
+  justify-content: start;
+ 
+
+}
+
 
 @media (max-width: 768px){
     .navbar{
@@ -187,11 +214,28 @@ body{
         font-weight: 500;
     }
 
-    .logo{
+    /*.logo{
         position: absolute;
         top: 10px;
         right: 15px;
         font-size: 2.5rem;
+    }
+    */
+
+     .logo{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+       font-size: 1.5rem;
+    }
+
+    .iana{
+      padding-top: 22px;
+    }
+    
+    .new{
+      width:50px;
+      height: 50px;
     }
 
     .navbar-container input[type="checkbox"]:checked ~ .menu-items{
@@ -209,7 +253,41 @@ body{
     .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3{
         transform: rotate(-45deg);
     }
+   
 
+    #container2{
+      display:inline-block;
+      max-width: 100%;
+      padding-top: 0px;
+      height:300px;
+    }
+    .tox1{
+      width:100%;
+      font-size:20px;
+      text-align: center;
+    }
+
+    .design{
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .fi{
+      display:flex;
+      justify-content: center;
+      
+    }
+    .Dian{
+      display:flex;
+      justify-content: center;
+      max-width: 100%;
+    }
+    .image{
+      justify-content: center;
+      width:500px;
+      height: auto;
+     
+    }
 }
 
 
@@ -219,4 +297,95 @@ body{
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
     }
+
+  
+
+    .logo{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+     font-size: 1.5rem;
+  }
+
+  .iana{
+    padding-top: 22px;
+  }
+  
+  .new{
+    width:50px;
+    height: 50px;
+  }
+
+#container2{
+  display:inline-block;
+  max-width: 100%;
+  padding-top: 0px;
+  height:300px;
 }
+.tox1{
+  width:100%;
+}
+.Dian{
+  display:flex;
+  justify-content: center;
+  max-width: 100%;
+  margin-left: 10px;
+}
+.image{
+  width:350px;
+ 
+ 
+}
+}
+
+@media (max-width: 420px){
+
+  .navbar-container input[type="checkbox"]:checked ~ .logo{
+    display: none;
+}
+
+
+  .logo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+   font-size: 1.5rem;
+}
+
+.iana{
+  padding-top: 20px;
+}
+
+.new{
+  width:50px;
+  height: 50px;
+}
+
+
+
+#container2{
+  display:inline-block;
+  max-width: 100%;
+  padding-top: 0px;
+  height:300px;
+}
+.tox1{
+  width:100%;
+}
+.Dian{
+  display:flex;
+  justify-content: center;
+
+  max-width: 100%;
+  
+ 
+}
+.image{
+  width:350px;
+  
+
+}
+}
+
+
+
